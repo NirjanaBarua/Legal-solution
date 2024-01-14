@@ -38,15 +38,15 @@ img{
 .para{
     position: absolute;
     top:80px;
-    left: 480px;
+    left: 540px;
     right: 500px;
     font-size: 50px;
 }
 .quote{
     position: absolute;
     top:240px;
-    left: 480px;
-    right: 510px;
+    left: 470px;
+    right: 480px;
     font-size: 13px;
 }
 .sub-btn{
@@ -59,7 +59,7 @@ img{
     border-radius: 7px;
     border: 2px;
     top: 298px;
-    right: 520px;
+    right: 490px;
     
 }
 input{
@@ -70,7 +70,32 @@ input{
     border-radius: 7px;
     border: 2px;
     top: 298px;
-    left: 485px;
+    left: 495px;
     padding-left: 15px;
+}
+.serve,.client{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.799);
+    margin-top: 100px;
+}
+.s_intro,.c-intro{
+    text-align: center;
+    margin-left: 460px;
+    margin-right: 460px;
+    font-size: 14px;
+}
+.card-img-top{
+    height: auto;
+    max-width: 10%;
+}
+.card-group{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.card-body{
+    text-align: center;
+    
 }
 
