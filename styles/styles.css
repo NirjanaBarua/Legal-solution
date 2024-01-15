@@ -73,7 +73,7 @@ input{
     left: 495px;
     padding-left: 15px;
 }
-.serve,.client{
+.serve,.client,.ques{
     font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -95,7 +95,28 @@ input{
     margin-right: 300px;
 }
 .card-body{
-    text-align: center;
+    text-align: center;  
+}
+.carousel-control-prev{
     
+    margin-top: 50px;
+    margin-left: 220px;
+}
+.carousel-control-next{
+    margin-top: 50px;
+    margin-right: 220px;
+}
+.carousel-inner img{
+    height: 390px;
+}
+
+.c-rev{
+    position: absolute;
+    margin-left: 430px;
+    margin-right: 430px;
+    top:300px;
+    text-align: center;
+    color: lightblue;
+    font-size: 13px;
 }
 
