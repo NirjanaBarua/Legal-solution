@@ -1,21 +1,25 @@
-*body{
-    background-color: rgb(218, 141, 42);
+body {
+    background-color: whitesmoke !important;
 }
-.flexx{
+
+.flexx {
     display: flex;
 }
-.juss img{
+
+.juss img {
     height: 40px;
     width: 100px;
-    margin-left: 300px;
- }
-.navv{
+    margin-left: 290px;
+}
+
+.navv {
     margin-top: 50px;
     margin-left: 110px;
 }
-.btn-lg{
+
+.btn-lg {
     color: white;
-    background-color: rgb(182,140,90);
+    background-color: rgb(182, 140, 90);
     border-radius: 7px;
     border: 5px;
     width: 165px;
@@ -23,14 +27,15 @@
     margin-left: 100px;
 }
 
-.imgp{
+.imgp {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     position: relative;
     color: white;
-    
+
 }
-img{
+
+img {
     margin-top: 40px;
     height: 430px;
     width: 950px;
@@ -38,24 +43,27 @@ img{
     margin-right: auto;
     display: block;
 }
-.para{
+
+.para {
     position: absolute;
-    top:80px;
+    top: 80px;
     left: 540px;
     right: 500px;
     font-size: 50px;
 }
-.quote{
+
+.quote {
     position: absolute;
-    top:240px;
+    top: 240px;
     left: 470px;
     right: 480px;
     font-size: 13px;
 }
-.sub-btn{
+
+.sub-btn {
     position: absolute;
     color: white;
-    background-color: rgb(182,140,90);
+    background-color: rgb(182, 140, 90);
     font-size: 18px;
     width: 115px;
     height: 48px;
@@ -63,9 +71,10 @@ img{
     border: 2px;
     top: 298px;
     right: 490px;
-    
+
 }
-input{
+
+input {
     position: absolute;
     height: 48px;
     width: 400px;
@@ -76,63 +85,87 @@ input{
     left: 495px;
     padding-left: 15px;
 }
-.serve,.client,.ques{
+
+.serve,
+.client,
+.ques {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 30px;
     color: rgba(0, 0, 0, 0.799);
     margin-top: 100px;
 }
-.s_intro,.c-intro,.cques{
+
+.s_intro,
+.c-intro,
+.cques {
     text-align: center;
     margin-left: 460px;
     margin-right: 460px;
     font-size: 14px;
 }
-.card-img-top{
+
+.card-img-top {
     height: auto;
     max-width: 10%;
 }
-.card-group{
+
+.card-group {
     margin-left: 300px;
     margin-right: 300px;
 }
-.card-body{
-    text-align: center;  
+
+.card-body {
+    text-align: center;
 }
-.carousel-control-prev{
-    
+
+.carousel-control-prev {
+
     margin-top: 50px;
     margin-left: 220px;
 }
-.carousel-control-next{
+
+.carousel-control-next {
     margin-top: 50px;
     margin-right: 220px;
 }
-.carousel-inner img{
+
+.carousel-inner img {
     height: 390px;
 }
 
-.c-rev{
+.c-rev {
     position: absolute;
     margin-left: 430px;
     margin-right: 430px;
-    top:300px;
+    top: 300px;
     text-align: center;
     color: lightblue;
     font-size: 13px;
 }
-.qflex{
+
+.cc-rev {
+    position: absolute;
+    margin-left: 700px;
+    top: 220px;
+    text-align: center;
+    color: lightblue;
+}
+
+.qflex {
     display: flex;
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
 }
-.qimg img{
+
+.qimg img {
     height: 400px;
-    width: 380px;
+    width: 400px;
+    margin-top: 0;
 }
-.accordion-item{
+
+.accordion-item {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 30px;
@@ -140,7 +173,75 @@ input{
     border: 5px solid gray;
     background-color: #f0f0f0;
 }
-.ftr{
+
+.ftr {
     background-color: black;
+    margin-top: 50px;
 }
 
+.col {
+    text-align: left;
+    color: white;
+    margin-top: 100px !important;
+    margin-right: 40px;
+
+}
+
+.ftrimg img {
+    height: 40px;
+    width: 100px;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+
+.row-cols-auto {
+    justify-content: center;
+}
+
+@media (min-width: 769px) {
+    /* .collapse{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    } */
+    .bg-red{
+        display: none;
+    }
+    /* .container-fluid{
+        display: none;
+    } */
+    .navbar-toggler{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    /* cards */
+    .navv{
+        display: none;
+    }
+    .juss img{
+        margin-left: 0;
+    }
+    .navbar-toggler {
+        position: fixed;
+        left: 340px;
+        top: 50px;
+        z-index: 9999;
+    }
+    img{
+        height: 250px;
+        width:400px;
+        margin-left: 0;
+    }
+    .card-group{
+        margin-left: 0;
+        margin-right: 0;
+       
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+
+}
