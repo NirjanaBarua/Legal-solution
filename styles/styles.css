@@ -227,13 +227,13 @@ input {
     }
     .navbar-toggler {
         position: fixed;
-        left: 340px;
+        left: 320px;
         top: 50px;
         z-index: 9999;
     }
     img{
         height: 250px;
-        width:400px;
+        width:350px;
         margin-left: 0;
     }
     .card-group{
