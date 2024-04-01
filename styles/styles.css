@@ -223,17 +223,26 @@ input {
         display: none;
     }
     .juss img{
-        margin-left: 0;
-    }
+        margin-left: 250px;
+    } 
     .navbar-toggler {
         position: fixed;
-        left: 300px;
+        left: 500px;
         top: 50px;
         z-index: 9999;
     }
+    .nav-item{
+        position: relative;
+        margin-left: 130px;
+        top: 90px;
+    }
+    .btn-lg{
+        margin-left: 120px;
+        margin-top: 120px;
+    }
     img{
-        height: 250px;
-        width:370px;
+        height: 350px;
+        width:768px;
         margin-left: 0;
     }
     .card-group{
