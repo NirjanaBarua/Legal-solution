@@ -200,57 +200,153 @@ input {
 }
 
 @media (min-width: 769px) {
-    /* .collapse{
+
+    .bg-red {
         display: none;
     }
-    .navbar{
-        display: none;
-    } */
-    .bg-red{
-        display: none;
-    }
-    /* .container-fluid{
-        display: none;
-    } */
-    .navbar-toggler{
+
+    .navbar-toggler {
         display: none;
     }
 }
+
 @media only screen and (max-width: 768px) {
 
-    /* cards */
-    .navv{
+
+    .navv {
         display: none;
     }
-    .juss img{
-        margin-left: 250px;
-    } 
+
+    .juss img {
+        margin-left: 0;
+    }
+
     .navbar-toggler {
         position: fixed;
-        left: 500px;
+        left: 300px;
         top: 50px;
         z-index: 9999;
     }
-    .nav-item{
+
+    .nav-item {
         position: relative;
-        margin-left: 130px;
+        margin-left: 70px;
         top: 90px;
     }
-    .btn-lg{
-        margin-left: 120px;
+
+    .btn-lg {
+        margin-left: 60px;
         margin-top: 120px;
     }
-    img{
-        height: 350px;
-        width:768px;
+
+    img {
+        height: 220px;
+        width: 360px;
         margin-left: 0;
     }
+
+    .para {
+        left: 50px;
+        right: 50px;
+
+        top: 20px;
+        font-size: x-large;
+    }
+
+    .quote {
+        left: 35px;
+        right: 30px;
+        top: 100px;
+        font-size: xx-small;
+    }
+
+    .sub-btn {
+        position: absolute;
+        color: white;
+        background-color: rgb(182, 140, 90);
+        font-size: 18px;
+        width: 80px;
+        height: 25px;
+        border-radius: 7px;
+        border: 2px;
+        top: 160px;
+        right: 35px;
+
+    }
+
+    input {
+        position: absolute;
+        height: 25px;
+        width: 190px;
+        background-color: white;
+        border-radius: 7px;
+        border: 2px;
+        top: 160px;
+        left: 35px;
+        padding-left: 15px;
+    }
+
+    .s_intro,
+    .c-intro,
+    .cques {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+
+    }
     .card-group{
-        margin-left: 0;
-        margin-right: 0;
-       
-        flex: 0 0 100%;
-        max-width: 100%;
-      }
+        margin: 0;
+    }
+    .col-4{
+        width: 100% !important;
+    }
+   
+    .card-img-top {
+        margin-left: 140px;
+        max-width: 20%;
+    }
+
+    .carousel-inner img {
+
+        height: 220px;
+
+    }
+
+    .carousel-control-prev {
+
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .carousel-control-next {
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+
+
+    .qflex {
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .accordion-item {
+        width: 100%;
+    }
+
+    .qimg img {
+        width: 300px;
+    }
+
+    .ftrimg {
+        margin-left: 60px;
+    }
+
+    .col {
+        text-align: center;
+        margin-top: 50px !important;
+    }
 
 }
